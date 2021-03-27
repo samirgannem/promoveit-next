@@ -22,4 +22,11 @@
 .profileContainer div p {
   font-size: 1rem;
   margin: 0.5rem;
+  display: flex;
+  align-content: center;
 }
+
+.profileContainer div p img {
+  margin-right: 0.5rem;
+}
+
