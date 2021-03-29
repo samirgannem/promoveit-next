@@ -32,10 +32,21 @@
 
 @media(max-width: 640px) {
   html {
-    font-size: 50%;
+    font-size: 81.25%;
   }
 }
 
+@media(max-width: 480px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media(max-width: 360px) {
+  html {
+    font-size: 62.5%;
+  }
+}
 
 body {
   background: var(--background);

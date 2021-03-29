@@ -5,13 +5,27 @@
   padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
-
 }
 
-.container section {
-  flex: 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6.25rem;
-  align-content: center;
+@media(max-width: 5000px) {
+
+  .container section {
+    margin-top: 2rem;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    align-content: center;
+  }
 }
+
+@media(max-width: 720px) {
+  .container section {
+    flex: 1;
+    display: block;
+    margin-top: 4rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+
